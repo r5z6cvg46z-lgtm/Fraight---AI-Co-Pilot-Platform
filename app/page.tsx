@@ -1,7 +1,6 @@
 "use client";
-
-import React, { useState } from "react";
 import Image from "next/image";
+import { useState } from "react";
 
 // Navigation items with custom icons
 const navItems = [
