@@ -1,0 +1,20 @@
+/* Tailwind base layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth background for premium feel */
+body {
+  background-color: #05090F;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide scrollbars for Tesla-style menus */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
